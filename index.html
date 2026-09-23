@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Catálogo de protótipos de sites para apresentação e avaliação.">
+  <title>Protótipos de sites</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #f5f6f8; color: #192332; font-family: system-ui, sans-serif; line-height: 1.6; }
+    main { max-width: 800px; margin: 0 auto; padding: 64px 24px; }
+    h1 { margin: 0 0 12px; font-size: clamp(2rem, 6vw, 3rem); line-height: 1.15; }
+    p { color: #526071; }
+    ul { list-style: none; padding: 0; margin: 32px 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 20px; }
+    a { display: block; height: 100%; padding: 28px; border: 1px solid #d4dbe4; border-radius: 16px; background: #fff; color: #192332; text-decoration: none; }
+    a:hover { border-color: #245ac4; background: #f0f5ff; }
+    a:focus-visible { outline: 3px solid #245ac4; outline-offset: 4px; }
+    h2 { margin: 0 0 8px; font-size: 1.4rem; }
+    a p { margin: 0 0 20px; }
+    .action { color: #194ba6; font-weight: 600; }
+    .note { font-size: .9rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Protótipos de sites</h1>
+    <p>Explore as propostas de páginas e conheça a apresentação de cada projeto.</p>
+    <nav aria-label="Projetos disponíveis">
+      <ul>
+        <li>
+          <a href="./kelvin-barber/">
+            <h2>Kelvin Lopes</h2>
+            <p>Barbearia — apresentação, serviços e trabalhos.</p>
+            <span class="action">Ver protótipo →</span>
+          </a>
+        </li>
+        <li>
+          <a href="./sv-alisamentos/">
+            <h2>SV Alisamentos</h2>
+            <p>Alisamento e cuidados capilares — serviços e resultados.</p>
+            <span class="action">Ver protótipo →</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <p class="note">Projetos demonstrativos sujeitos a ajustes de conteúdo e identidade visual.</p>
+  </main>
+</body>
+</html>
